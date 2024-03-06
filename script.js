@@ -40,7 +40,7 @@ loginButton.addEventListener('click', function () {
                 last_login: dt,
             })
             console.log(user.email);
-            window.location.href = "https://noah-pesendorfer.github.io/Scrumflow/Tasks/tasks.html"
+            window.location.href = "https://noah-pesendorfer.github.io/Scrumflow/"
         })
         .catch((error) =>{
             alert(error.message)
